@@ -44,3 +44,7 @@ h1.home-title {
 div.img-container img{
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
+
+.product-blanche {
+    background: url('../img/tea-candle-825.jpg') no-repeat center / cover;
+}
