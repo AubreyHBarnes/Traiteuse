@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <main class="custom-font dark:bg-gray-800 bg-white relative overflow-hidden h-screen">
+        <header class="h-24 sm:h-32 flex items-center z-30 w-full">
+            <div class="container mx-auto px-6 flex items-center justify-between">
+                <div class="w-60 flex items-center">
+                    <img src="./img/traiteuse_logo_FINAL.png" alt="Traiteuse Logo">
+                </div>
+                <div class="mobile-menu flex items-center">
+                    <nav class=" text-gray-800 dark:text-white uppercase text-lg lg:flex items-center hidden">
+                        <a href="#" class="py-2 px-6 flex hover:text-black">
+                            Home
+                        </a>
+                        <a href="#" class="py-2 px-6 flex hover:text-black">
+                            Products
+                        </a>
+                        <a href="#" class="py-2 px-6 flex hover:text-black">
+                            About
+                        </a>
+                        <a href="#" class="py-2 px-6 flex hover:text-black">
+                            Contact
+                        </a>
+                    </nav>
+                    <button id="toggle-mobile-menu" class="lg:hidden flex flex-col ml-4">
+                        <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                        </span>
+                        <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                        </span>
+                        <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <div class="flex relative items-center h-full">
+            <div class="container mx-auto px-6 flex flex-col justify-between items-center relative py-4 transform -translate-y-1/2">
+                <div class="flex flex-col">
+                    <!-- <img src="/img/traiteuse_logo_FINAL.png" class="rounded-full" /> -->
+                    <p class="text-3xl my-6 text-center dark:text-white">
+                        Welcome to
+                    </p>
+                    <h1
+                        class="home-title tracking-widest underline max-w-3xl text-5xl md:text-6xl font-medium mx-auto dark:text-white text-gray-800 text-center py-2">
+                        <!-- Building digital products, brands, and experiences. -->
+                        Traiteuse
+                    </h1>
+                    <!-- <div class="flex items-center justify-center mt-4">
+                        <a href="#"
+                            class="uppercase py-2 my-2 px-4 md:mt-16 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md">
+                            CONNECT WITH ME
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+<footer class="bg-white dark:bg-gray-800 w-full py-8">
+    <div class="max-w-screen-xl mx-auto px-4">
+        <ul class="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between">
+            <li class="my-2">
+                <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#">
+                    Home
+                </a>
+            </li>
+            <li class="my-2">
+                <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#">
+                    Products
+                </a>
+            </li>
+            <li class="my-2">
+                <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#">
+                    About
+                </a>
+            </li>
+            <li class="my-2">
+                <a class="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#">
+                    Contact
+                </a>
+            </li>
+        </ul>
+        <div class="text-center text-gray-500 dark:text-gray-200 pt-10 sm:pt-12 font-light flex items-center justify-center">
+            &copy; Traiteuse 2021
+        </div>
+    </div>
+</footer>
+<script src="./js/app.js"></script>
+</body>
+
+</html>
