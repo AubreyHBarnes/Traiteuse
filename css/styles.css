@@ -32282,6 +32282,17 @@ div.img-container img{
   background: url('../img/tea-candle-825.jpg') no-repeat center / cover;
 }
 
+.about-hero-img::before {
+  content: '';
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  top: -1rem;
+  right: 3rem;
+  border: 3px solid black;
+  z-index: -1;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
