@@ -32293,6 +32293,28 @@ div.img-container img{
   z-index: -1;
 }
 
+.corner-frame::before {
+  width: 5rem;
+  height: 5rem;
+  content: '';
+  border-top: .3rem solid black;
+  border-left: .3rem solid black;
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+}
+
+.corner-frame::after {
+  width: 5rem;
+  height: 5rem;
+  content: '';
+  border-bottom: .3rem solid black;
+  border-right: .3rem solid black;
+  position: absolute;
+  bottom: -1rem;
+  right: -1rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
