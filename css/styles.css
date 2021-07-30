@@ -32284,8 +32284,8 @@ div.img-container img{
 
 .about-hero-img::before {
   content: '';
-  width: 10rem;
-  height: 10rem;
+  width: 12rem;
+  height: 12rem;
   position: absolute;
   top: -1rem;
   right: 3rem;
